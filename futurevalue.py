@@ -3,6 +3,7 @@ money = input("Enter the amount of money you're investing:\n")
 years = int(years) + 1
 money = float(money)
 currentyear = 1
+i = 0
 def futureValue(years, money):
     for i in range(1, years):
         money = money*1.055
